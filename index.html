@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    height: 55px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+  }
+  
+  ul.menu {
+    background-color: black;
+    padding: 20px;
+    list-style: none;
+    display: none;
+    margin-top: 53px;
+  }
+  
+  li {
+    margin: 20px 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input.check {
+    height: 40px;
+    width: 40px;
+    z-index: 5;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    opacity: 0;
+  }
+  
+  .icon-bars,
+  .icon-close {
+    color: white;
+    transform: scale(2.2);
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    padding: 2px;
+  }
+  
+  .icon-bars {
+    z-index: 2;
+  }
+  
+  .check:checked ~ .icon-close {
+    z-index: 3;
+  }
+  
+  .check:checked ~ .menu {
+    display: inline-block;
+  }
+ 
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input class="check" type="checkbox">
+            <i class="fa-solid fa-bars icon-bars"></i>
+            <i class="fa-solid fa-xmark icon-close"></i>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sectors</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus facilis eos amet, optio harum perspiciatis unde quidem repellendus! Nostrum assumenda sapiente totam ea animi esse cupiditate distinctio illo obcaecati autem quae natus error velit, labore nihil adipisci quo qui possimus deleniti? Cum corporis dolorem non ea voluptates nulla accusantium delectus itaque eos rerum. Sunt pariatur esse enim deleniti, voluptatem ratione nobis perspiciatis inventore in illum excepturi laborum, eaque quidem blanditiis sequi praesentium numquam. Neque accusamus pariatur cumque impedit voluptatibus sapiente et nam, velit dolores similique facere atque quo eius quidem vitae voluptate error ut? Ullam earum atque enim minima quis accusantium facilis reiciendis magnam non! Voluptatem corrupti beatae fugiat iste voluptatibus excepturi quibusdam et sapiente? Eos iure aspernatur nesciunt in dignissimos esse voluptate modi? Sequi repellendus exercitationem nisi ex dicta! Reiciendis officiis minima eaque quam in dolore. Ea, laudantium consequatur quod vero ipsam, impedit quasi recusandae quo ex, obcaecati inventore dolor iste amet ratione! Obcaecati accusantium esse impedit ducimus? Ullam deleniti, repellendus facere tempore optio veniam expedita molestias dolore repellat explicabo, error provident sunt sequi. Delectus quasi, sint incidunt corrupti corporis soluta ea deleniti quidem quo error laboriosam aliquam debitis accusantium dolores aspernatur quis libero veniam perferendis placeat id dolor illum est atque. Quo sequi, labore vitae cum libero laboriosam! Blanditiis tempora distinctio dolores aspernatur praesentium nihil, corporis nulla commodi rerum obcaecati cupiditate atque pariatur quae porro unde, voluptates non accusamus fugit quasi id voluptatem quis inventore odio illum? Alias, nobis a? Cupiditate nulla illo illum qui odit animi adipisci ut facere dolores laborum a aut natus, modi corrupti placeat laboriosam, dignissimos dolore totam nam temporibus beatae laudantium atque. Impedit, veritatis harum optio consectetur fugit incidunt aliquam nam excepturi cumque quas facilis. Soluta asperiores fugit natus fugiat? Laudantium sunt deleniti aspernatur dolorum dignissimos itaque perferendis veritatis! Odit recusandae cum debitis suscipit, praesentium sequi at quod reprehenderit illo maiores sit nostrum necessitatibus ipsam dolor, laborum nobis, quia animi fuga? Nesciunt mollitia cumque ex aut sit, ab repellat, incidunt veniam corporis amet tenetur ipsam, ullam vero quo a. Illum earum nostrum quidem et repellat eum molestiae esse praesentium ullam obcaecati voluptatibus, accusamus commodi recusandae perspiciatis nesciunt, laboriosam voluptatum voluptate perferendis? Saepe praesentium, exercitationem labore repellat adipisci ex possimus, repudiandae quo explicabo optio cum minus vitae omnis veniam hic deserunt sint dolorum itaque cupiditate error velit! Inventore neque incidunt voluptatem maxime ratione qui veniam numquam, dolores et, magni a, similique repellendus nemo quia.</p>
+    </main>
+</body>
+
+</html>

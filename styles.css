@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+  }
+  
+  ul.menu {
+    background-color: black;
+    padding: 20px;
+    list-style: none;
+    display: none;
+    margin-top: 53px;
+  }
+  
+  li {
+    margin: 20px 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  input.check {
+    height: 40px;
+    width: 40px;
+    z-index: 5;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    opacity: 0;
+  }
+  
+  .icon-bars,
+  .icon-close {
+    color: white;
+    transform: scale(2.2);
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    padding: 2px;
+  }
+  
+  .icon-bars {
+    z-index: 2;
+  }
+  
+  .check:checked ~ .icon-close {
+    z-index: 3;
+  }
+  
+  .check:checked ~ .menu {
+    display: inline-block;
+  }
+ 
